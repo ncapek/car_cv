@@ -8,6 +8,7 @@ Two parts: color_classification and licence_plate
 	- outlines
 		- scraper was constructed and a total of 8940 cars were scraped, 1 image per car
 		- images were save with resolution 256x192
+		- scraper could use further optimizations
 		- dataset contains a single image per car from a frontal view under a 45 degree angle
 		- most images contain the same background from a similar distance and angle
 		- in some cases the images contain images of tyres or some other anomaly

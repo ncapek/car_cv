@@ -28,7 +28,7 @@ def get_car_color(res):
             for tr in tr_res:
                 if tr.th.text == 'Barva':
                     return tr.td.text
-        return None
+    return None
 
 def save_pic(url, filename, res=(256,192)):
     img = Image.open(urlopen(url)).resize(res)
